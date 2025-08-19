@@ -1,17 +1,17 @@
 body {
   font-family: Arial, sans-serif;
-  background: #0f0f0f;          /* dark background */
+  background: #0f0f0f; 
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
   margin: 0;
-  color: #e0e0e0;               /* light gray text */
+  color: #e0e0e0; 
 }
 
 .container {
   text-align: center;
-  background: #1c1c1c;          /* dark gray card */
+  background: #1c1c1c;
   padding: 20px 40px;
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.5);
@@ -20,7 +20,7 @@ body {
 .progress-bar {
   width: 300px;
   height: 20px;
-  background: #333;             /* darker bar background */
+  background: #333; 
   border-radius: 10px;
   overflow: hidden;
   margin: 20px auto;
@@ -29,7 +29,6 @@ body {
 .progress {
   width: 0%;
   height: 100%;
-  background: linear-gradient(90deg, #97d9eb, #5eabe6); /* blue gradient */
-  /* animation: load 1s linear forwards; */
+  background: linear-gradient(90deg, #97d9eb, #5eabe6);
   border-radius: 10px 0 0 10px;
 }
